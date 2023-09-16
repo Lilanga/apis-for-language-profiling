@@ -12,7 +12,7 @@ const server = Bun.serve({
 
 const counter = (n: number) :number => {
     let count = 0;
-    if (n > 500000000) {
+    if (n > 5000000000) {
         n = 5000000000;
     }
 
